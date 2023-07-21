@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    body {
+        background-color: rgb(29, 29, 29);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        background-repeat: no-repeat;
+        background-image: url('img/home.jpeg');
+        background-position-y: 180px;
+        background-position-x: 700px;
+    }
+
+    @media only screen and (max-width:600px) {
+        body {
+            background-image: url('img/home.jpeg');
+            background-size: 250px;
+            background-position-x: 65px;
+            background-position-y: 330px;
+            width: 250px;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"><b class="R">R</b>ahuL</div>
+            <i i class="fa fa-bars" onclick="openmenu()"></i>
+            <div class="right" id="home">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Lets chat</a></li>
+                    <i i class="fa fa-times" onclick="closemenu()"></i>
+
+                </ul>
+
+            </div>
+            </div>
+
+        </nav>
+    </header>
+    <header>
+        <div class="height-text">
+            <h1 class="text-header"><b class="R">Hi</b>, I'M RAHUL</h1>
+            <h1 class="text">WELCOME TO MY PORTFOLIO</h1>
+        </div>
+    </header>
+
+    <!-- ---------About----------- -->
+    <div id="about">
+        <a href="#home" i class="fa fa-home"></i></a>
+        <div class="container">
+            <div class="row" id="row1">
+
+                <div class="about-col1">
+                    <img src="img/me.jpeg" alt="Rahul" width="330" height="500">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="sub-title-p">Hello, I'm Rahul from Karnataka. Welcome to my website. I am an undergrad
+                        student trying to learn and explore web development.</p>
+                    <p class="sub-title-p">Feel free to explore my portfolio and check out the projects I've worked on.
+                        If you have any inquiries or would like to have a chat, reach out to me using the contact
+                        details provided below.</p>
+
+                    <div class="btns">
+                        <button class="edu-btn" onclick="openTab()">Education</button>
+                        <button class="edu-btn" onclick="openTab1()">Skills</button>
+                    </div>
+                    <div id="main" class="tab-contents"
+                        style="padding-bottom: 20px;  display: none;padding-left: 210px; color:white; "><br>
+                        BE: Computer and Communication
+                        Engineering <br> NMAM Institute of Technology,Nitte
+                    </div>
+
+                    <div id="main1" class="tab-contents" style="display: none; padding-left: 350px; color:white">
+                        <ul>
+                            <li>C programming Language</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>Html</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Project -->
+    <div id="project">
+
+        <div class="project-row">
+            <a href="#home"> <i class="fa fa-home"></i></a>
+            <h1 class="sub-title" style="font-size: 45px;">My Projects</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work1.avif">
+                    <div class="layer">
+                        <h3>Automatic Pet feeder</h3>
+                        <p>This is a IOT project which helps pet owners to feed their pet automatically on time</p>
+                        <!-- <a href="" ><i class="fa fa-link"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/work2.png">
+                    <div class="layer">
+                        <h3>Temparature Convertor Webpage</h3>
+                        <p>This is a webpage which helps users to convert temparature from one scale to other</p>
+                        <a href="https://github.com/RahulPrabhu03/Temperature-converter" target="_blank"><i
+                                class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work3.webp">
+                    <div class="layer">
+                        <h3>Employee Management System</h3>
+                        <p>This is DBMS project which has a admin login.Admin can view,delete,add employees and
+                            departments</p>
+                        <a href="https://github.com/RahulPrabhu03/Employee_management" target="_blank"><i
+                                class="fa fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="colum3"></div>
+
+        </div>
+
+
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+
+        <div class="container">
+            <!-- <a href="#home" id="chome"> <i class="fa fa-home"></i></a> -->
+
+            <div class="row">
+
+                <!-- Left Part -->
+                <div class="contact-left">
+                    <h1 class="sub-title" style="font-size: 45px;margin-bottom: 10px;">Lets Chat!!</h1>
+                    <p><i class="fa fa-envelope"
+                            style="color:rgb(28, 225, 255); font-size: 20px;"></i>rahulprabhu03@gmail.com</p>
+                    <p><i class="fa fa-phone" style="color:rgb(28, 225, 255); font-size: 25px;"></i>6362028094</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rahul-prabhu-b9a857248/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/RahulPrabhu03" target="_blank"><i class="fa fa-github"></i></i></a>
+                    </div>
+                    <a href="img/Resume.pdf" download class="cv">Download CV</a>
+                </div>
+                <!-- Right part -->
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="cv">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Rahul <a class="up-arrow" href="#home" style="float: right; padding-right: 5px;">&#9651;</a></p>
+
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxLDjirSFwh9Z0LnaXCVkMYVY4jF1GWtYHq9D6L8hr59ZNCUW8laqgXPg6xI5lUodQn4Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML="Form submitted successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
