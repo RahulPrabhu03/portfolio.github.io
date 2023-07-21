@@ -424,7 +424,7 @@ nav .fa {
 @media only screen and (max-width:600px){
    
     nav{
-        width: 400px;
+        width: 430px;
     }
 
    
@@ -477,7 +477,7 @@ nav .fa {
     #about{
         margin: -42px;
         height: 530px;
-        width:290px;
+        width:310px;
     }
     #about a{
         display: none;
@@ -508,7 +508,7 @@ nav .fa {
         display: grid;
         height: 1100px;
         margin:-42px;
-        width:290px;
+        width:310px;
     }
     #project a{
         display: none;
@@ -532,7 +532,7 @@ nav .fa {
         padding-left: 0px;
     }
     .copyright {
-        width:158%;
+        width:172%;
     }
 
     #msg{
