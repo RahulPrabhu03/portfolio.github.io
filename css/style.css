@@ -464,7 +464,7 @@ nav .fa {
     nav ul li{
         display: block;
         margin:3px ;
-        z-index: 1;
+        
     }
     nav ul .fa{
         position: absolute;
