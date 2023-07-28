@@ -40,3 +40,21 @@ function closemenu(){
     sidemenu.style.right="-200px";
 }
 
+ScrollReveal({ 
+    reset: true,
+    distance:'80px',
+    duration:2000,
+    delay:200
+  
+  });
+  ScrollReveal().reveal('#about, .height-text, #contact' , {origin:'top'});
+
+//   Text change
+  const typed=new Typed('.multi-text',{
+    strings:['FrontEnd Developer','Web Designer','Python Programmer' ],
+    typeSpeed:100,
+    backSpeed:100,
+    backdelay:1000,
+    loop:true,
+    showCursor:false
+ });
