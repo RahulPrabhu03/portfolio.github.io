@@ -26,7 +26,7 @@
 
     @media only screen and (max-width:600px) {
         body {
-            background-image: url('img/home.jpeg');
+            background-image: none;
             background-size: 250px;
             background-position-x: 65px;
             background-position-y: 330px;
@@ -60,7 +60,7 @@
         <div class="height-text">
             <h1 class="text-header"><b class="R">Hi</b>, I AM RAHUL</h1>
             <h1 class="text">WELCOME TO MY PORTFOLIO </h1>
-            <h1 class="text">I AM</h1><span class="text multi-text" style="color:rgb(28, 225, 255);"></span>
+            <h1 class="text">I AM</h1><span class="multi-text" style="color:rgb(28, 225, 255); font-size:40px; padding-left:100px;"></span>
         </div>
     </header>
 
@@ -207,7 +207,7 @@
                     msg.innerHTML="Form submitted successfully"
                     setTimeout(function(){
                         msg.innerHTML=""
-                    },2000)
+                    },1000)
                     form.reset()
                 })
                 .catch(error => console.error('Error!', error.message))

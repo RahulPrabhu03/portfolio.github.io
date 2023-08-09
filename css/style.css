@@ -423,6 +423,7 @@ nav .fa {
 /* Media query */
 @media only screen and (max-width:600px){
    
+    
     nav{
         width: 430px;
     }

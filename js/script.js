@@ -56,5 +56,5 @@ ScrollReveal({
     backSpeed:100,
     backdelay:1000,
     loop:true,
-    showCursor:false
+    // showCursor:false
  });
